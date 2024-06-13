@@ -21,7 +21,7 @@ function sunHours() {
     var theZone = document.forms.solarForm.zone.selectedIndex;
     var img = document.getElementById("zone-map");
     theZone++;
-    img.src = `images/US-Solar-Zone-Map-Zone${[theZone]}.jpg`;
+    img.src = `US-Solar-Zone-Map-Zone${[theZone]}.jpg`;
     switch(theZone) {
         case 1:
             hrs = 6;
